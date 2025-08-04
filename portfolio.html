@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metadata for SEO and accessibility -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio website of Gabriel Kamowatimwa, an M&E Specialist and tech enthusiast from Malawi.">
+  <meta name="keywords" content="Gabriel Kamowatimwa, portfolio, M&E, epidemiology, Python, web development, database, AI">
+  <meta name="author" content="Gabriel Kamowatimwa">
+  <title>Gabriel Kamowatimwa - Portfolio</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Linking external CSS for styling -->
+</head>
+
+<body>
+  <!-- Header section: contains name, role, and navigation -->
+  <header>
+    <h1>Gabriel Kamowatimwa</h1>
+    <p>Software Development trainee | Monitoring & Evaluation Specialist | Epidemiologist | Data Analyst</p>
+
+    <!-- Navigation menu linking to page sections -->
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Image slider showcasing profile/headshots -->
+  <div class="slider" aria-label="Photo slideshow">
+    <div class="slides">
+      <img src="Headshot.png" alt="Gabriel Kamowatimwa Photo 1">
+      <img src="Gabriel 2.png" alt="Gabriel Kamowatimwa Photo 2">
+      <img src="Gabriel 3.png" alt="Gabriel Kamowatimwa Photo 3">
+    </div>
+  </div>
+
+  <!-- Main content begins -->
+  <main>
+    <!-- About Me section with personal journey and tech goals -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>I am a seasoned Monitoring and Evaluation (M&E) Specialist with over 9 years of experience in health and development programs. Throughout my career, I have worked extensively to strengthen data systems, build interactive dashboards in Power BI, and support decision-making through evidence-based insights. My work has always been guided by a passion for public health and innovation—leveraging data to improve systems and ultimately save lives.</p>
+      <p>Over time, I developed a strong curiosity about the tools behind data systems—especially the programming skills that allow developers to turn complex information into usable, accessible solutions. This curiosity quickly turned into a deep passion. I realized that if I could master programming, I could build tools that empower communities, health workers, and organizations to better analyze, visualize, and act on data.</p>
+      <p>This vision is what fuels my journey into computer programming. I am driven by the belief that technology should be used to solve real-world problems. I am especially passionate about learning Python, web development (both front-end and back-end), mobile app development, and database design and management. I am also eager to explore the potential of artificial intelligence in advancing public health and development outcomes.</p>
+      <p>To turn this vision into reality, I am currently enrolled in the Power Learn Project 2025 July Cohort, where I am actively strengthening my programming skills and connecting with fellow learners across Africa. This hands-on learning experience is not only enriching my technical knowledge but also expanding my understanding of how software solutions can create social impact. My goal is to become a full-stack developer capable of building data-driven applications that are scalable, impactful, and inclusive.</p>
+    </section>
+
+    <!-- Skills section listing programming languages and tools -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Programming Languages</h2>
+      <ul>
+        <li>Basic HTML & CSS</li>
+        <li>MySQL</li>
+        <li>Power BI (DAX, M)</li>
+        <li>Basic Python</li>
+      </ul>
+    </section>
+
+    <!-- Education history displayed using a table -->
+    <section id="education" aria-labelledby="education-heading">
+      <h2 id="education-heading">Educational Background</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Degree</th>
+            <th scope="col">Institution</th>
+            <th scope="col">Years</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>MSc in Epidemiology</td>
+            <td>Kamuzu University of Health Sciences</td>
+            <td>2021–2025</td>
+          </tr>
+          <tr>
+            <td>Bachelor of Social Science</td>
+            <td>University of Malawi, Chancellor College</td>
+            <td>2011–2015</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- Link to downloadable CV -->
+      <p><a href="CV%20for%20Gabriel%20Kamowatimwa.pdf" download>📄 Download My CV</a></p>
+    </section>
+
+    <!-- Interests section with detailed descriptions of each topic -->
+    <section id="interests" aria-labelledby="interests-heading">
+      <h2 id="interests-heading">Interests</h2>
+      <ul>
+        <li><strong>Python:</strong> For its simplicity, versatility, and power in data analysis, automation, and backend development.</li>
+        <li><strong>Web Development:</strong> Passionate about creating responsive and functional web apps as a full-stack developer.</li>
+        <li><strong>Database Development:</strong> Interested in managing structured data efficiently using MySQL, PostgreSQL, and MongoDB.</li>
+        <li><strong>Mobile App Development:</strong> Excited by the potential of mobile tools to solve real-world challenges in health and education.</li>
+        <li><strong>Artificial Intelligence (AI):</strong> Motivated to use AI to interpret large datasets and improve public health decisions.</li>
+      </ul>
+    </section>
+
+    <!-- Project section linking to GitHub -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <ol>
+        <li>
+          <strong><a href="https://github.com/your-username/your-portfolio-repo" target="_blank" rel="noopener noreferrer">
+            Personal Portfolio Website</a>:</strong>
+          A responsive portfolio site designed to showcase my skills and help others learn more about my professional and technical journey.
+        </li>
+      </ol>
+    </section>
+
+    <!-- Contact form using HTML5 input validation -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Me</h2>
+      <form action="#" method="post">
+        <!-- Full Name -->
+        <label for="full-name">Full Name</label>
+        <input type="text" id="full-name" name="full-name" placeholder="Your full name" required autocomplete="name">
+
+        <!-- Email -->
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email">
+
+        <!-- Phone -->
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="e.g. +265123456789" autocomplete="tel" pattern="\+?[0-9\s\-]+">
+
+        <!-- Location (readonly) -->
+        <label for="location">Location</label>
+        <input type="text" id="location" name="location" value="Malawi" readonly>
+
+        <!-- Message -->
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+        <!-- Submit Button -->
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer section with copyright -->
+  <footer role="contentinfo">
+    <p>&copy; 2025 Gabriel Kamowatimwa | 
+      <a href="https://www.linkedin.com/in/gabriel-kamowatimwa-88464b110/" target="_blank" rel="noopener noreferrer" aria-label="Visit my LinkedIn profile">LinkedIn Profile</a></p>
+  </footer>
+</body>
+</html>
